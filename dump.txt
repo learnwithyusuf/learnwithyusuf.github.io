@@ -1,2 +1,5 @@
 This course is going to be held live and the live videos would be available for download shoertly after every class.
-						    
+<button class="bg-primary buybtn" type="button" onclick="payWithPaystack()">Buy for ₦78,000</button>
+
+
+rgb(164, 196, 25)

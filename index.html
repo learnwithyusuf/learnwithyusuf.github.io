@@ -467,9 +467,11 @@
 			  }
 		   ]
 		},
-		callback: function(response){
-			alert('success. transaction ref is ' + response.reference);
-		},
+		// On the  callback function, you can redirect to another page, passing the transaction reference 
+callback: function(response){
+  window.location = "https://lwy.com.ng/r.html" + response.reference;
+},
+//So on that redirected page, you can run verification.
 	  });
 	  handler.openIframe();
 	}

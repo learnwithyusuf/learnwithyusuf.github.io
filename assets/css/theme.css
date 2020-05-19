@@ -73,3 +73,6 @@ input#mce-EMAIL.email {
     border: 1px solid #ced0e1;
     border-radius: .25rem;
     transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;}
+
+
+@media (max-width: 380px){a.btn.btn-secondary.scrollto {margin-top:0.5em;}}

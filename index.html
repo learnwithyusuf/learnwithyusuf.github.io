@@ -453,7 +453,7 @@
 <script>
 	function payWithPaystack(){
 	  var handler = PaystackPop.setup({
-		key: 'pk_live_3ba2999526eeb269e4c135a2e5bba07af495267a',
+		key: 'pk_test_32b45b0d5fa3f90e689a9fb992fded52e3fbdb23',
 		email: 'buyer@lwy.com.ng',
 		amount: 7800000,
 		currency: "NGN",
@@ -469,7 +469,7 @@
 		},
 		// On the  callback function, you can redirect to another page, passing the transaction reference 
 callback: function(response){
-  window.location = "https://lwy.com.ng/r.html" + response.reference;
+  window.location = "https://lwy.com.ng/r.html";
 },
 //So on that redirected page, you can run verification.
 	  });
